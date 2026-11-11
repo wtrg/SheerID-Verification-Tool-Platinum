@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and sensitive files
+.env
+*.session
+*.session-journal
+*.log
+bot.log
+
+# Temporary & Output artifacts
+test_outputs/
+*.png
+*.jpg
+*.jpeg
+*.json
+!package.json
+!tsconfig.json
+
+# IDE and Editor configuration
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.agent/
+.gemini/
+
+# OS generated files
+.DS_Store
+Thumbs.db
